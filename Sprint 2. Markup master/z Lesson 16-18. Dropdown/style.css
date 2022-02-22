@@ -1,0 +1,66 @@
+div {
+    text-align: center;
+    margin-top: 200px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: rgb(251, 86, 64);
+    height: auto;
+    width: auto;
+    color: white;
+    margin: -10px;
+}
+
+.main {
+    padding-left: 0px;
+}
+
+body {
+    background-color: rgb(184, 138, 138);
+    color: white;
+}
+
+a {
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+}
+
+.main li ul {
+    position: absolute;
+    visibility: hidden;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.main li ul li {
+    background-color: rgb(251, 86, 64);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    display: block;
+    margin: 0;
+    position: relative;
+    min-width: 150px;
+}
+
+.main li:hover>ul {
+    visibility: visible;
+}
+
+.main li:hover {
+    background-color: rgb(36, 36, 36);
+}
+
+.main li ul li ul {
+    top: 0;
+    left: 100%;
+}

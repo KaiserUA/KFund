@@ -1,0 +1,32 @@
+git init
+(выполнение происходит в папке
+создает репозиторий в папке)
+
+git add index.html
+(добавление файлов в комит)
+
+git commit -m "first commit"
+(регистрация комита в репозиторие)
+
+git branch -M main
+(переименование рабочей ветки)
+
+git remote add origin https://github.com/...
+(связывание репозитория с внешним источником)
+
+git push -u origin main
+(отправка комитов на гитхаб)
+
+!список комманд при создании нового репозитория:
+git init
+git add index.html
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Samuraisky/...
+git push -u origin main
+
+!при отправке изменений:
+git add index.html style.css
+git commit -m "second commit"
+git push
+

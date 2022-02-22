@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+body {
+    font-family: 'Inconsolata', monospace;
+    background : rgb(231, 231, 231);
+}
+
+.main {
+    height    : 300px;
+    width     : 490px;
+    background: white;
+    padding   : 10px;
+}
+
+.block1 a:visited{
+    color: green;
+}
+
+.block1 a:link{
+    color: blue;
+}
+
+.block1 a:hover{
+    text-decoration: none;
+}
+
+.block1 a:active{
+    color: yellow;
+}
+
+.block1 a:focus{
+    color: red;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+.block2 li:first-child{
+    font-weight: bold;
+}
+
+.block2 li:last-child{
+    color: blue;
+}
+
+.block2 li:only-child{
+    text-decoration: underline;
+    color: green;
+}
+
+.block3 p:first-of-type{
+    font-weight: bold;
+    color: green;
+}
+
+.block3 p:last-of-type{
+    color: blue;
+}
+
+.block3 span:only-of-type{
+    font-weight: bold;
+    color: black;
+}
+
+.block4 :nth-child(even){
+    font-weight: bold;
+}
+
+.block4 :nth-last-child(3n){
+    color: blue;
+}
+
+.arrow::after{
+    content: ">"
+}
+
+.arrow:hover:after{
+    content: "   >"
+}
+
+.arrow{
+    text-decoration: none;
+}

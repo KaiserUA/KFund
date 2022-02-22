@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b87a2c4866.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Lesson 13-14</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Pseudo-element examples</h1>
+        <h2>Example 1 (::after)</h2>
+        <p><a href="#" class="arrow">This is a link with an arrow!</a></p>
+        <h2>Example 2 (::before, ::after)</h2>
+        <p>This is a link with an arrow and a hexagon! <a href="#"><i class="far fa-caret-square-right"></i></a></p>
+        <h2>Example 3 (::after)</h2>
+        <p>This is a print styles link! <a href="#"> (https://www.google.com) </a></p>
+    </div>
+    <div class="block1">
+        <h2>Link pseudo-classes</h2>
+        <p><a href="#visited">:visited pseudo-class</a></p>
+        <p><a href="#link">:link pseudo-class</a></p>
+        <h2>User action pseudo-classes</h2>
+        <p><a href="#hover">Hover pseudo-class</a></p>
+        <p><a href="#active">:active pseudo-class</a></p>
+        <p><a href="#focus">:focus pseudo-class</a></p>
+    </div>
+    <hr>
+    <form action=""></form>
+    <hr>
+    <div class="block2">
+        <h2>Structural and posotion pseudo-classes</h2>
+        <p>:first-child :last-child and :only-child</p>
+        <ul>
+            <li>
+                <p>This list item is selected by :first-child</p>
+            </li>
+            <li>
+                <p>This list type item is not selected</p>
+            </li>
+            <li>
+                <ul>
+                    <li>
+                        <p>This listed link is selected by :only-child</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>This list item is selected by :last-child</p>
+            </li>
+        </ul>
+    </div>
+    <hr>
+    <div class="block3">
+        <h2>:first-os-type :last-of-type and :only-of-type</h2>
+        <p>This paragraph is selected by :first-of-type</p>
+        <p>This paragraph will not be selected</p>
+        <span>This span is selected by :first-of-type</span>
+        <p>This paragraph is selected by :last-of-type</p>
+    </div>
+    <hr>
+    <div class="block4">
+        <p>:nth-child(n) and :nth-last-child(n)</p>
+        <p>First line of text</p>
+        <p>Second line of text</p>
+        <p>Third line of text</p>
+        <p>Fourth line of text</p>
+        <p>Fifth line of text</p>
+        <p>Sixth line of text</p>
+    </div>
+</body>
+
+</html>
